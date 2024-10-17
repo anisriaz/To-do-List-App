@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <title>Task Manger Store</title>
+</head>
+<body>
+     <h1>Task Manger</h1>
+
+     <div>
+      <input type="text" id="title"  placeholder="Enter task name"/>
+      <input type="text" id="discriptions"  placeholder="Enter Discriptions"/>
+      <input type="date" id="publishDate">
+
+      <button id="submit" onclick="addTodoFunc()">Add</button>
+     </div>
+
+     <div> <input type="text" id="search" placeholder="Search..." onkeyup="searchTodo()"/> </div>
+
+     <div id="listContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
